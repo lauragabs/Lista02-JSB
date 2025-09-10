@@ -1,6 +1,6 @@
 totalCartas = 27;
 numeroCarta = Math.floor(Math.random() * totalCartas) + 1;
-caminho = "/Lista02-JSB/image/cards/carta" + numeroCarta + ".png";
+caminho = "/image/carta" + numeroCarta + ".png";
 
 document.write("<h2>Carta sorteada:</h2>");
 document.write(

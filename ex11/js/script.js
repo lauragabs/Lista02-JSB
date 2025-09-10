@@ -18,7 +18,7 @@ for (var jogador = 1; jogador <= 4; jogador++) {
   document.write("<h3>Jogador " + jogador + ":</h3>");
   for (var c = 0; c < 3; c++) {
     var cartaNum = cartas[(jogador - 1) * 3 + c];
-    var caminho = "/Lista02-JSB/image/cards/carta" + cartaNum + ".png";
+    var caminho = "/image/carta" + cartaNum + ".png";
     document.write(
       '<img src="' +
         caminho +
